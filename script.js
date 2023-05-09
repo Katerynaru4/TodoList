@@ -1,5 +1,5 @@
 class TodoList {
-  constructor() {
+  constructor() { 
     this.todos = JSON.parse(sessionStorage.getItem("todos")) || [];
     this.listElement = document.querySelector("#list");
     this.inputElement.addEventListener("keyup", (event) => {
