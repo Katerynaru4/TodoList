@@ -1,6 +1,5 @@
 class TodoList {
-  constructor() { 
-    this.todos = JSON.parse(sessionStorage.getItem("todos")) || [];
+  constructor() {
     this.listElement = document.querySelector("#list");
     this.inputElement.addEventListener("keyup", (event) => {
       if (event.keyCode === 13) {
