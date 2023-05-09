@@ -1,5 +1,4 @@
 class TodoList {
-  constructor() {
     this.listElement = document.querySelector("#list");
     this.inputElement.addEventListener("keyup", (event) => {
       if (event.keyCode === 13) {
